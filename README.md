@@ -46,8 +46,8 @@
 
 | 工具 | 它解决什么问题 | 状态 |
 | :-- | :-- | :--: |
-| [市场温度计](https://github.com/Wangjingboge/wj-bogle-market-thermometer) | 37 个 A股标的 + 7 只港股指数，PE 十年分位 → 一张 0–100 的温度长图 | ✅ 已开源 |
-| ETF 资金流榜单 | 股票型 ETF 近一天/一周/一月的净流入、净流出 TOP 榜 | 🚧 整理中 |
+| [市场温度计](https://github.com/Wangjingboge/wj-bogle-market-thermometer) | 37 个 A股标的 + 7 只港股指数，PE 十年分位 → 一张 0–100 的温度长图。读数很笨：30° 以下开始买，50° 以上不再加仓 | ✅ 已开源 |
+| [ETF 资金流榜单](https://github.com/Wangjingboge/wj-etf-fund-flow) | 股票型 ETF 的净流入、净流出各取 TOP N，压成一张榜单图。净流入 = 区间份额变化 × 成交均价，红涨绿跌 | ✅ 已开源 |
 | 上市公司财报对比 | 一家做体检、多家做横向对比，营收增速、收入结构、PE/PB 分位一页说完 | 🚧 整理中 |
 | 市场温度历史 | 每天的温度存一份，看的是趋势不是点位 | 🚧 整理中 |
 
