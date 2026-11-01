@@ -12,7 +12,7 @@
 
 [![雪球](https://img.shields.io/badge/雪球-望京博格-C8362F?style=flat-square)](https://xueqiu.com/wangjingboge)
 [![主页](https://img.shields.io/badge/主页-wangjingboge.github.io-1B2A41?style=flat-square)](https://wangjingboge.github.io)
-![公众号](https://img.shields.io/badge/公众号-望京博格聊基-07C160?style=flat-square)
+![公众号](https://img.shields.io/badge/公众号-望京博格投基-07C160?style=flat-square)
 ![微博](https://img.shields.io/badge/微博-望京博格-E6162D?style=flat-square)
 ![著译](https://img.shields.io/badge/著译-十余本-C9A227?style=flat-square)
 
@@ -88,7 +88,7 @@
 | 平台 | 账号 | 主要讲什么 |
 | :-- | :-- | :-- |
 | 雪球 | [望京博格](https://xueqiu.com/wangjingboge) | 实盘周报、行业估值、市场温度 |
-| 微信公众号 | 望京博格聊基 / 绿巨人星球 | 长文、深度拆解 |
+| 微信公众号 | 望京博格投基 / 望京博格 | 长文、深度拆解 |
 | 微博 | 望京博格 | 盘中碎念 |
 | GitHub | [Wangjingboge](https://github.com/Wangjingboge) | 工具与代码 |
 | 主页 | [wangjingboge.github.io](https://wangjingboge.github.io) | 一页看完我是谁 |
