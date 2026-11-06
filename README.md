@@ -44,12 +44,37 @@
 
 ## 工具箱
 
-| 工具 | 它解决什么问题 | 状态 |
-| :-- | :-- | :--: |
-| [市场温度计](https://github.com/Wangjingboge/wj-bogle-market-thermometer) | 37 个 A股标的 + 7 只港股指数，PE 十年分位 → 一张 0–100 的温度长图。读数很笨：30° 以下开始买，50° 以上不再加仓 | ✅ 已开源 |
-| [ETF 资金流榜单](https://github.com/Wangjingboge/wj-etf-fund-flow) | 股票型 ETF 的净流入、净流出各取 TOP N，压成一张榜单图。净流入 = 区间份额变化 × 成交均价，红涨绿跌 | ✅ 已开源 |
-| 上市公司财报对比 | 一家做体检、多家做横向对比，营收增速、收入结构、PE/PB 分位一页说完 | 🚧 整理中 |
-| 市场温度历史 | 每天的温度存一份，看的是趋势不是点位 | 🚧 整理中 |
+15 个 Skill，全部开源。数据取 Wind，图由代码画，口径写在仓库里 —— 点名字进仓库。
+
+### 🌡️ 数据监控
+
+| 工具 | 它解决什么问题 |
+| :-- | :-- |
+| [市场温度计](https://github.com/Wangjingboge/wj-bogle-market-thermometer) | 37 个 A股标的（申万 31 个一级行业 + 6 只宽基）+ 7 只港股指数，PE 十年分位等权平均成一张 0–100 的温度长图。读数很笨：30° 以下开始买，50° 以上不再加仓 |
+| [ETF 资金流榜单](https://github.com/Wangjingboge/wj-etf-fund-flow) | 股票型 ETF 的净流入、净流出各取 TOP N，压成一张榜单图。净流入 = 区间份额变化 × 成交均价，红涨绿跌 |
+| [国家队 ETF 监控](https://github.com/Wangjingboge/wj-nation-team-etf-monitor) | 按成交额到净申购的弹性分档，逐日反推宽基 ETF 的一级市场申购规模。回答“国家队今天动手了没、这段时间买了多少” |
+| [回购与大股东减仓](https://github.com/Wangjingboge/wj-buyback-reduction-monitor) | 60 个月全 A 回购金额对上重要股东二级市场减持，底下垫一条沪深300。看的是错位——谁在用力 |
+| [行业融资余额](https://github.com/Wangjingboge/wj-margin-balance-monitor) | 申万 31 个行业 × 12 个月的杠杆搬运热力图，红的是加杠杆，绿的是还钱离场 |
+
+### 📊 财报与筛选
+
+| 工具 | 它解决什么问题 |
+| :-- | :-- |
+| [A股财报分析](https://github.com/Wangjingboge/listed-company-financial-compare) | 一家做体检、多家做横向对比，营收增速、收入结构、PE/PB 分位一页说完 |
+| [基金横向对比](https://github.com/Wangjingboge/fund-compare) | 两只基金比业绩、持仓、回撤、风险指标，最后给一个二选一的结论 |
+| [红利股息率](https://github.com/Wangjingboge/wj-dividend-yield) | A股与港股红利 ETF 的税后股息率排行，港股先扣 20% 红利税 |
+| [月月分红 ETF 组合](https://github.com/Wangjingboge/wj-monthly-dividend-etf) | 五道规则筛出 5 只跟踪指数不重复的红利 ETF，100 万本金算出每月能收多少 |
+| [QDII 溢价卡](https://github.com/Wangjingboge/qdii-etf-premium-cards) | QDII ETF 的场内溢价率做成卡片，买之前先看贵了多少 |
+| [低风险组合](https://github.com/Wangjingboge/lowrisk-portfolio) | 给回撤上限和目标年化，配出组合；配不出来就直接说配不出来 |
+
+### ✍️ 内容与写作
+
+| 工具 | 它解决什么问题 |
+| :-- | :-- |
+| [博格写作](https://github.com/Wangjingboge/wj-burger-write) | 短句、口语、金句复读。把“博格口吻”写成能被调用的规则 |
+| [财报解读](https://github.com/Wangjingboge/wj-burger-earnings) | 一边翻数字一边讲这门生意，最后落到跟你的钱有什么关系 |
+| [书籍配图](https://github.com/Wangjingboge/wj-burger-book-figure) | 黑白透明底、宋体统一字号、图例在图内。一本书的插图得看起来像一家人 |
+| [小红书封面](https://github.com/Wangjingboge/xhs-cover-pillow) | 3:4 多页轮播，1080×1440，按小红书的规矩排 |
 
 ## 写过 / 译过的书
 
